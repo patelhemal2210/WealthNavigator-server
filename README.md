@@ -3,9 +3,9 @@ Wealth Navigator is an expense tracker and budgeting application. This repositor
 
 Main components of the application are:
 * [Monthly expense planner](#monthly-expense-planner)
-* Expense tracker
-* Budget tracker
-* Reports
+* [Expense tracker](#expense-tracker)
+* [Budget tracker](#budget-tracker)
+* [Reports](#reports)
 
 ## Monthly expense planner
 A monthly expense planner generates expenses that need to be paid every month. eg, mortgage, phone bill, internet bill, utilities, etc.
