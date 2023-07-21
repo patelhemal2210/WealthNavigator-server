@@ -27,16 +27,16 @@ The following information is required while creating any recurring expense trans
 | Field                                                                                                                                                                                                                                                                                                                                                          | Description                                                                                                                    | Example       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Expense description                                                                                                                                                                                                                                                                                                                                            | Expense Description                                                                                                            | Internet Bill |
-| Recurring payment Frequency
-|   <ul>
-|       <li>Weekly (Provide : day of the week (eg, Mondays))</li>
-|       <li>Bi-weekly (Provide: start date (eg, 01/12/2023))</li>
-|       <li>Semi-monthly (Usually on 15th and last days of the month)</li>
-|       <li>Monthly (Provide: day of the month (eg, 5th))</li>
-|       <li>Quarterly (Provide: start date (eg, 01/12/2023))</li>
-|       <li>yearly (Provide: exact date (eg, 06/06/2023))</li>
-|   </ul>
-| This field describes how often this expense need to be paid                                                                    |               |
+| Recurring payment Frequency|This field describes how often this expense need to be paid|
+|   <ul>||
+|       <li>Weekly (Provide : day of the week (eg, Mondays))</li>||
+|       <li>Bi-weekly (Provide: start date (eg, 01/12/2023))</li>||
+|       <li>Semi-monthly (Usually on 15th and last days of the month)</li>||
+|       <li>Monthly (Provide: day of the month (eg, 5th))</li>||
+|       <li>Quarterly (Provide: start date (eg, 01/12/2023))</li>||
+|       <li>yearly (Provide: exact date (eg, 06/06/2023))</li>||
+|   </ul>||
+|                                                                     |               |
 | Is transaction allowed on Weekend?                                                                                                                                                                                                                                                                                                                             | This flag is used to indicate if the transaction is allowed on weekend                                                         | True/False    |
 | If the transaction is on the weekend does it need to be paid before weekend?                                                                                                                                                                                                                                                                                   | This flag is used to decide if the transaction is not allowed on weekend then should we pay it before weekend or after weekend | True/False    |
 | Amount                                                                                                                                                                                                                                                                                                                                                         | If amount is fixed for the expense provide else keep it as '0'                                                                 | $123.45        |
