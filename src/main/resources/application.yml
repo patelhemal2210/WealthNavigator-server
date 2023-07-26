@@ -1,0 +1,14 @@
+server:
+  port: 8090
+  servlet:
+    contextPath: /api
+    port: 8090
+
+  error:
+    include-stacktrace: never
+
+wealthnavigator:
+  auth:
+    jwt:
+      expiration_ms: 3600000
+    max_attempt: 10
